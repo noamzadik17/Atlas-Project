@@ -41,8 +41,9 @@ export default class AtlasClass {
         let borders_div = div.querySelector(".borders_div");
         this.borders.forEach(async (item, index) => {
             let btn = document.createElement("button");
-            btn.innerHTML = await this.shortTofullCountry(item) + " ";
-            btn.style = "background:#00bbf0; color: white; border-radius: 10px";
+            btn.innerHTML = await this.shortTofullCountry(item) + "  ";
+            btn.classList.add("btn", "btn-info-outline");
+            btn.style = "background:#00bbf0; color: white; border-radius: 10px; margin-bottom: 10px;";
             borders_div.append(btn);
             btn.addEventListener("click", () => {
                 this.doApi(btn.innerHTML);

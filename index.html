@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/header-footer.css">
-
-    <script defer type="module" src="js/app.js"></script>
+    <script type="module" defer src="js/app.js"></script>
     <title>The ATLAS Project</title>
 </head>
 
@@ -17,28 +16,27 @@
     <header class="container-fluid bg-black p-3 text-white">
         <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
             <div class="container">
-                <a class="navbar-brand col-auto" href="index.html">
-                    <img src="img/300x300.png" style="width: 200px;" alt="">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/300x300.png" style="width: 200px;" alt="ATLAS">
                 </a>
-                <div class="col-auto links d-none d-md-block">
-                    <a id="id_israel" style="color: #00bbf0; cursor: pointer;">
+                <div class="col-auto links d-none d-md-block" style="margin-left: 70px;">
+                    <a id="id_israel_2" style="color: #00bbf0; cursor: pointer;">
                         ISRAEL
                     </a>
-                    <a id="id_usa" style="color: #00bbf0; cursor: pointer;">
+                    <a id="id_usa_1" style="color: #00bbf0; cursor: pointer;">
                         USA
                     </a>
-                    <a id="id_gb" style="color: #00bbf0; cursor: pointer;">
+                    <a id="id_gb_3" style="color: #00bbf0; cursor: pointer;">
                         UK
                     </a>
-                    <a id="id_france" style="color: #00bbf0; cursor: pointer;">
+                    <a id="id_france_4" style="color: #00bbf0; cursor: pointer;">
                         FRANCE
                     </a>
-                    <a id="id_thailand" style="color: #00bbf0; cursor: pointer;">
+                    <a id="id_thailand_5" style="color: #00bbf0; cursor: pointer;">
                         THAILAND
                     </a>
                 </div>
-                <button class="navbar-toggler" style="margin-left: 155px;" data-toggle="collapse"
-                    data-target="#navcol-1">
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
                     <span class="sr-only">
                         Toggle navigation
                     </span>
@@ -47,8 +45,8 @@
                 <div class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav">
                         <li class="dropdown">
-                            <a class="d-block d-md-none dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown"
-                                aria-expanded="false" href="#" style="color: white;">
+                            <a class="dropdown-toggle nav-link dropdown-toggle d-lg-none d-md-none d-sm-block"
+                                data-toggle="dropdown" aria-expanded="false" href="#" style="color: white;">
                                 Popular
                             </a>
                             <div class="dropdown-menu" role="menu">
@@ -62,7 +60,7 @@
                                 </a>
                                 <a class="dropdown-item" role="presentation"
                                     style="color: black;border-bottom: 1px solid black;" id="id_gb">
-                                    GB
+                                    UK
                                 </a>
                                 <a class="dropdown-item" role="presentation"
                                     style="color: black;border-bottom: 1px solid black;" id="id_france">
@@ -75,13 +73,13 @@
                             </div>
                         </li>
                     </ul>
-                    <div class="col-12 d-flex">
-                        <input id="id_input" placeholder="Search country..." type="text" class="form-control">
+                    <div class="col-md-auto d-flex" style="margin-left: auto;">
+                        <input id="id_input" placeholder="Search For A Country..." type="text" class="form-control">
                         <button id="btn_Search" style="background: rgb(0, 195, 255);" class="btn ms-2">
                             Search
                         </button>
                     </div>
-                </div> 
+                </div>
             </div>
         </nav>
     </header>
@@ -100,11 +98,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
         </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
